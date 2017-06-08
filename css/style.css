@@ -14,29 +14,45 @@ body {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-size: 60px;
 }
 
+
 .to-do-form {
+	display: flex;
+	justify-content: center;
 	width: 50%;
 	margin: 30px auto;
 	background: #222E50;
 	color: #5AFF15;
 	border: 10px solid #5AFF15;
+	justify-content: center;
 }
 
 .to-do-form label {
-	display: block;
+	align-content: center;
 	padding: 1%;
 	text-align: center;
+	font-size: 40px;
 }
 .to-do-form input {
-	display: block;
+	display: flex;
+	width: 50%;
 	padding: 10px;
 	margin: 10px auto;
 	text-align: center;
 }
-.to-do-button {
-	display: flexbox;
+.to-do-form button {
+	text-align: center;
+	margin: 1%;
+	padding: 10px;
+	color: #5AFF15;
+	background: #222E50;
+	border-radius: 25%;
+	font-size: 20px;
+}
+/*.to-do-button {
+	display: flex;
 	flex-wrap: center;
 	justify-content: center;
 	margin: 1%;
@@ -46,14 +62,34 @@ body {
 	border-radius: 25%;
 
 }
-
+*/
 .to-do-list {
+	display: flex;
+	justify-content: center;
 	width: 50%;
 	margin: 30px auto;
 	min-height: 30px;
 	border: 10px double #A1CDF4;
 	background: #0F5257;
+	color: #A1CDF4;
+	text-align: center;
+	padding: 30px;
+	font-size: 40px;
+	list-style-type: square; 
+	list-style-position: inside;
+	flex-direction: column;
 }
-.to-do-list ul {
-	color: #B18FCF;
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
 }
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+/*.to-do-list li {
+	align-content: space-between; 
+}*/
