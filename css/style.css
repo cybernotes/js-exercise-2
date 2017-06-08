@@ -79,7 +79,7 @@ body {
 	list-style-position: inside;
 	flex-direction: column;
 }
-.close {
+/*.close {
     position: absolute;
     right: 0;
     top: 0;
@@ -89,7 +89,7 @@ body {
 .close:hover {
     background-color: #f44336;
     color: white;
-}
+}*/
 /*.to-do-list li {
 	align-content: space-between; 
 }*/
