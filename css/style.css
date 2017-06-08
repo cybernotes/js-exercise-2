@@ -3,3 +3,56 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background: #B18FCF;
+}
+.main-header {
+	color: #0F5257;
+	border: solid 5px #0F5257;
+	background: #A1CDF4;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.to-do-form {
+	width: 50%;
+	margin: 30px auto;
+	background: #222E50;
+	color: #5AFF15;
+	border: 10px solid #5AFF15;
+}
+
+.to-do-form label {
+	display: block;
+	padding: 1%;
+	text-align: center;
+}
+.to-do-form input {
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+}
+.to-do-button {
+	display: flexbox;
+	flex-wrap: center;
+	justify-content: center;
+	margin: 1%;
+	padding: 10px;
+	color: #5AFF15;
+	background: #222E50;
+
+}
+
+.to-do-list {
+	width: 50%;
+	margin: 30px auto;
+	min-height: 30px;
+	border: 10px double #A1CDF4;
+	background: #0F5257;
+}
+.to-do-list ul {
+	color: #B18FCF;
+}
