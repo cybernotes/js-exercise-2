@@ -25,7 +25,7 @@ body {
 	margin: 30px auto;
 	background: #222E50;
 	color: #5AFF15;
-	border: 10px solid #5AFF15;
+	border: 3px solid #5AFF15;
 	justify-content: center;
 }
 
@@ -41,6 +41,9 @@ body {
 	padding: 10px;
 	margin: 10px auto;
 	text-align: center;
+	font-size: 30px;
+	color: #A1CDF4;
+	background-color: #B18FCF;
 }
 .to-do-form button {
 	text-align: center;
@@ -50,6 +53,13 @@ body {
 	background: #222E50;
 	border-radius: 25%;
 	font-size: 20px;
+	border-color: #5AFF15;
+	transition: .5s;
+}
+
+.to-do-form button:hover {
+	background: #0F5257;
+	color: #A1CDF4;
 }
 /*.to-do-button {
 	display: flex;
@@ -65,19 +75,36 @@ body {
 */
 .to-do-list {
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	width: 50%;
 	margin: 30px auto;
 	min-height: 30px;
 	border: 10px double #A1CDF4;
 	background: #0F5257;
 	color: #A1CDF4;
-	text-align: center;
+	/*text-align: center;*/
 	padding: 30px;
 	font-size: 40px;
-	list-style-type: square; 
-	list-style-position: inside;
+	list-style: none;
 	flex-direction: column;
+	transition: .5s;
+}
+.to-do-list li {
+}
+.to-do-list li:hover {
+	background: #222E50;
+	color: #B18FCF;
+}
+
+.close-to-do {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 25px;
+	color: #5AFF15;
+	transition: .5s;
+}
+.close-to-do:hover {
+	color: #A1CDF4;
 }
 /*.close {
     position: absolute;

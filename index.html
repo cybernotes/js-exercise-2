@@ -3,21 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 		<link rel="stylesheet" href="css/style.css">
 		<title>Js Exercise 2</title>
 	</head>
 	<body>
 		<h1 class="main-header">To Do or Not to Do</h1>
+		
+		<form class="to-do-form">
+			<label for="user-input">Type your to-do:</label>
+			<input type="text" name="user-input" id="user-input" autocomplete="off">			
+			<button type="submit" id="user-submit" class= "to-do-button">Add To-Do!</button>
+		</form>
 		<ul id="to-do-list" class="to-do-list">
 
 		</ul>
-		<form class="to-do-form">
-			<label for="user-input">Type your to-do:</label>
-			<input type="text" name="user-input" id="user-input">
-			<button type="submit" id="user-submit" class= "to-do-button">Add To-Do!</button>
-		</form>
-		
 		
 		<!-- Make sure script is loaded at the bottom -->
 		<script src="js/app.js"></script>
